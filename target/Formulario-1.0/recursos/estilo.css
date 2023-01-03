@@ -1,0 +1,21 @@
+table {
+  margin: 0 auto; /* para centrarla en la pantalla */
+  border: 1px solid black; /* para añadir un borde */
+}
+
+td.columna {
+  font-size: larger; /* para ajustar el tamaño de la fuente */
+  background-color: lightblue; /* para darle un color de fondo */
+}
+td.columna {
+  font-size: larger; /* para ajustar el tamaño de la fuente */
+  background-color: lightblue; /* para darle un color de fondo */
+}
+input[type="reset"], input[type="submit"] {
+  font-size: larger; /* para ajustar el tamaño de la fuente */
+  background-color: lightgreen; /* para darle un color de fondo */
+}
+input[type="text"], textarea {
+  font-size: larger; /* para ajustar el tamaño de la fuente */
+  background-color: lightyellow; /* para darle un color de fondo */
+}
