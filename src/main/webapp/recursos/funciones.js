@@ -26,5 +26,27 @@ function validarForma(forma) {
         alert("Seleccioe una tecnologia ");
         return false;
     }
+    var generos = forma.genero;
+    var radioSeleccionado=false;
     
+    for(var i=0; i<generos.length;i++){
+        if(generos[i].checked){
+            radioSeleccionado=true;
+        }
+    }
+    if(!radioSeleccionado){
+        alert("Seleccioe un genero ");
+        return false;
+    }
+    
+    var ocupacion = forma.ocupacion;
+    
+    if(ocupacion.value==""){
+        alert("Seleccioe una ocupacion ");
+        return false;
+    }
+    
+    //Formulario valido
+    alert("Formulario valido");
+    return true;
   }
