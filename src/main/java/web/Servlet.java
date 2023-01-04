@@ -29,6 +29,7 @@ public class Servlet extends HttpServlet {
         out.println("<html>");
         out.println("<head>");
         out.println("<title>Resultado Servlet</title>");
+        out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"recursos/estiloRespuesta.css\">");
         out.println("</head>");
         out.println("<body>");
         out.println("<h1>Datos del Formulario</h1>");
